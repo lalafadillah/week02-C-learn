@@ -12,22 +12,31 @@
     </nav>
 
     
-    <h1 class="selection-title">Form Pendataan</h2>
-    
-    <form>
-        <label for="username">Nama</label><br>
-        <input type="text" id="username" name="username">
-        </br>
-        <label for="NIM">NIM</label><br>
-        <input type="text" id="nomor" name="nomor">
-        </br>
-        <label for="Angkatan">Angkatan</label><br>
-        <input type="number" id="Angkatan" name="Angkatan">
-        </br>
-        <input type="submit" value="Submit">
-    </form>
+    <main>
+        <div class="container">
 
-    <h2>Tipe Data</h2>
+            <div class="card">
+                <h2 class="title">Form Pendataan</h2>
+
+                <form>
+                    <label>Nama</label>
+                    <input type="text">
+
+                    <label>NIM</label>
+                    <input type="text">
+
+                    <label>Angkatan</label>
+                    <input type="number">
+
+                <div class="btn-wrapper">
+                        <button type="reset" class="cancel">Cancel</button>
+                        <button type="submit" class="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card">
+                <h2 class="title">Table Data</h2>
     
     <table>
         <tr>
@@ -55,6 +64,10 @@
             <th>2020</th>
         </tr>
     </table>
-    
+    </div>
+    </div>
+    </main>
+
 </body>
 </html>
+
